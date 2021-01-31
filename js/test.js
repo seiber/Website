@@ -1,3 +1,4 @@
- alert("hello world");
- object.onclick = function(){myScript};
- //object.addEventListener("click", myScript);
+document.getElementById("github").onclick = function()
+{
+    window.location.href = 'https://github.com/seiber';
+}
