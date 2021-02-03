@@ -1,53 +1,102 @@
-img
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.background
 {
-width: 100px;
-height: 100px;
-position: absolute;
-bottom: 8px;
-left: 16px;
+    width:100%;
+    height:100vh;
+    background-image: url(Images/Background.bmp);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    overflow: hidden;
 }
 
-img:hover 
+.navbar
 {
-    box-shadow: 0 0 25px 10px rgba(0, 140, 186, 0.5);
+    width: 85%;
+    height:15%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button
+{
+    color: #fbfcfd;
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sidebar
+{
+    width: 50px;
+    height: 195vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+
 }
 
-body
+.menu
 {
-    background-image: url("Background.bmp");
-    background-repeat: no-repeat;  
-    background-size: 2000px 1000px;  
+    display:block;
+    width: 50px;
+    margin: 5px auto 0;
+    cursor: pointer;
+    
 }
-.linkedin
+img:hover
 {
-width: 100px;
-height: 100px;
-position: absolute;
-bottom: 1px;
-left: 130px;
-
+    box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
+}
+.socials img
+{
+    width:50px;
+    margin: 15px auto;
+    cursor: pointer;
+   
+}
+.socials
+{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
 }
 .header
 {
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
-    position: fixed;
-    left:400px;
-    
+    position: relative;
+    color:#F3EDE9;
+    font-size:59px;
+    font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    text-align: left;
+    line-height: 1.25em;
+    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
 }
-.description1
+.description
 {
-    color:rgb(116, 116, 116);
-    position: fixed;
-    left:400px;
-    bottom: 830px;
+    position: relative;
+    color:#F3EDE9;
+    font-size:17px;
+    font-family:sans-serif;
+    line-height: 1.5em;
+    letter-spacing:0.2em;
+    opacity: 0.90;
+    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
 }
-.description2
+.email
 {
-    color: white;
-    font-size:x-large;
-    position: fixed;
-    left:400px;
-    bottom: 700px;
+    margin:12px;
+    top: 30%;
+    text-align: center;
+    position: relative;
+    rotate: 90deg;
 }
-
