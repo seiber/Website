@@ -7,7 +7,7 @@
 {
     width:100%;
     height:100vh;
-    background-image: url(Images/Background.bmp);
+    background-image: url(Images/PirateBackground.jpg);
     background-size: cover;
     background-position: center;
     position: relative; 
@@ -49,13 +49,17 @@ button
     display:block;
     width: 50px;
     margin: 5px auto 0;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
-img:hover
+.menu:hover
 {
     box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
 }
+.socials img:hover
+{
+    box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
+}
+
 .socials img
 {
     width:50px;
@@ -74,7 +78,7 @@ img:hover
 .header
 {
     position: relative;
-    color:#F3EDE9;
+    color:#e98644;
     font-size:59px;
     font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     text-align: left;
@@ -84,7 +88,7 @@ img:hover
 .description
 {
     position: relative;
-    color:#F3EDE9;
+    color:#e98644;
     font-size:17px;
     font-family:sans-serif;
     line-height: 1.5em;
@@ -99,4 +103,70 @@ img:hover
     text-align: center;
     position: relative;
     rotate: 90deg;
+}
+.bubbles img
+{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.bubbles
+{
+width: 100%; 
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: absolute;
+bottom: -70px;
+}
+@keyframes bubble
+{
+    0%
+    {   transform: translateY(0);
+        opacity: 0;
+    }
+    50%
+    { 
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    100%
+    { 
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubbles img:nth-child(1)
+{
+    animation-delay: 2s;
+    width:25px;
+}
+.bubbles img:nth-child(2)
+{
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3)
+{
+    animation-delay: 3s;
+    width:25px;
+}
+.bubbles img:nth-child(4)
+{
+    animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5)
+{
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(6)
+{
+    animation-delay: 7s;
+    width:20px;
+}
+.bubbles img:nth-child(7)
+{
+    animation-delay: 2s;
+    width:35px;
 }
