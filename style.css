@@ -35,10 +35,9 @@ button
 .sidebar
 {
     width: 50px;
-    height: 195vh;
+    height: 100vh;
     background: linear-gradient(#00545d, #000729);
     position: absolute;
-    overflow: hidden;
     right: 0;
     top: 0;
 
@@ -46,9 +45,12 @@ button
 
 .menu
 {
+  
     display:block;
     width: 50px;
-    margin: 5px auto 0;
+    top: -16.5%;
+    position: relative;
+    margin: 15px auto 0;
     cursor: pointer; 
 }
 .menu:hover
@@ -63,31 +65,35 @@ button
 .socials img
 {
     width:50px;
-    margin: 15px auto;
+    margin-top: 125px;
     cursor: pointer;
    
 }
 .socials
 {
     width: 50px;
+    height: 0px;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 25%;
     transform: translateY(-50%);
 }
 .header
 {
     position: relative;
+    top: 10%;
     color:#e98644;
+    padding-bottom: 20px;
     font-size:59px;
     font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     text-align: left;
     line-height: 1.25em;
-    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
+    margin: 0px 0px 0px calc((100% - 980px) * 0.5);
 }
 .description
 {
     position: relative;
+    top: 10%;
     color:#e98644;
     font-size:17px;
     font-family:sans-serif;
@@ -98,8 +104,8 @@ button
 }
 .email
 {
-    margin:12px;
-    top: 30%;
+    margin-top: 125px;
+    top: 10%;
     text-align: center;
     position: relative;
     rotate: 90deg;
