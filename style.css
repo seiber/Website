@@ -65,7 +65,8 @@ button
 .socials img
 {
     width:50px;
-    margin-top: 125px;
+    height: 37px;
+    margin-top: 150px;
     cursor: pointer;
    
 }
@@ -75,40 +76,47 @@ button
     height: 0px;
     text-align: center;
     position: relative;
-    top: 25%;
+    bottom: 20%;
     transform: translateY(-50%);
 }
 .header
 {
     position: relative;
     top: 10%;
+    height: 200px;
+    width: 200px;
     color:#e98644;
     padding-bottom: 20px;
     font-size:59px;
     font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     text-align: left;
     line-height: 1.25em;
-    margin: 0px 0px 0px calc((100% - 980px) * 0.5);
+   
+    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
 }
 .description
 {
     position: relative;
-    top: 10%;
+    top: 3%;
     color:#e98644;
     font-size:17px;
     font-family:sans-serif;
     line-height: 1.5em;
     letter-spacing:0.2em;
     opacity: 0.90;
+    height: 200px;
+    width: 200px;
     margin: 0px 0px 34px calc((100% - 980px) * 0.5);
 }
 .email
 {
-    margin-top: 125px;
-    top: 10%;
+    margin-top: 150px;
+    top: 60%;
     text-align: center;
     position: relative;
     rotate: 90deg;
+  
+    color:beige;
 }
 .bubbles img
 {
