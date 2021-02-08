@@ -43,20 +43,6 @@ button
 
 }
 
-.menu
-{
-  
-    display:block;
-    width: 50px;
-    top: -16.5%;
-    position: relative;
-    margin: 15px auto 0;
-    cursor: pointer; 
-}
-.menu:hover
-{
-    box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
-}
 .socials img:hover
 {
     box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
@@ -183,4 +169,53 @@ bottom: -70px;
 {
     animation-delay: 2s;
     width:35px;
+}
+        
+.menu 
+{
+    display:block;
+    width: 50px;
+    top: -16.5%;
+    position: relative;
+    margin: 15px auto 0;
+    cursor: pointer; 
+}
+.menu:hover
+{
+box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
+}
+.menu-content
+{
+top: 8%;
+right: 25%;
+width: 200px;
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+z-index: 1;
+}
+.menu-content a 
+{
+color: black;
+font-weight: bold;
+padding: 6px 8px;
+text-decoration: none;
+display: block;
+}
+.menu-content a:hover
+{
+    box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
+}
+.show 
+{
+    display:block;
+} 
+/*about me page*/
+.background2
+{
+background-image: url(Images/AboutMeBackground.jpg);
+width: 100%;
+height: 120vh;
+background-size: cover;
+position: relative;
 }
