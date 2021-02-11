@@ -14,15 +14,6 @@
     overflow: hidden;
 }
 
-.navbar
-{
-    width: 85%;
-    height:15%;
-    margin: auto;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
 button
 {
     color: #fbfcfd;
@@ -77,6 +68,7 @@ button
     font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     text-align: left;
     line-height: 1.25em;
+    letter-spacing:0.2em;
    
     margin: 0px 0px 34px calc((100% - 980px) * 0.5);
 }
@@ -182,25 +174,25 @@ bottom: -70px;
 }
 .menu:hover
 {
-box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
+    box-shadow: inset 0 0 25px 10px rgba(0, 140, 186, 0.5);
 }
 .menu-content
 {
-top: 8%;
-right: 25%;
-width: 200px;
-display: none;
-position: absolute;
-background-color: #f1f1f1;
-z-index: 1;
+    top: 8%;
+    right: 25%;
+    width: 200px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
 }
 .menu-content a 
 {
-color: black;
-font-weight: bold;
-padding: 6px 8px;
-text-decoration: none;
-display: block;
+    color: black;
+    font-weight: bold;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
 }
 .menu-content a:hover
 {
@@ -213,9 +205,116 @@ display: block;
 /*about me page*/
 .background2
 {
-background-image: url(Images/AboutMeBackground.jpg);
-width: 100%;
-height: 120vh;
-background-size: cover;
-position: relative;
+    /*background-image: url(Images/AboutMeBackground.jpg);*/
+    background-color: beige;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.sidebar2
+{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#494b4b, #26272c2d);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.aboutme-header
+{
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing:0.15em;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+    padding-bottom: 20px;
+    letter-spacing:0.2em;
+    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
+    height: 200px;
+    width: 200px;
+}
+.aboutme-text
+{
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing:0.1em;
+    font-size: 13px;
+    font-family: sans-serif;
+    position: relative;
+    top: 10%;
+    padding-bottom: 20px;
+    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
+    height: 200px;
+    width: 500px; 
+}
+.quill
+{
+    position: relative;
+    width:400px;
+    height: 400px;
+    bottom: 40%;
+    left: 40%;
+    -webkit-animation-iteration-count: 7;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 3s;
+}
+@-webkit-keyframes run 
+{
+    50% { left: 50%;}
+    50%{ left : 51%;}
+    100%{ left: 50;}
+}
+  
+/*projects page*/
+.background3
+{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.projects-header
+{
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing:0.15em;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+    top: 30%;
+    letter-spacing:0.2em;
+    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
+    height: 200px;
+    width: 200px;
+}
+.icon-bar
+{
+    width: 97.4%;
+    height: 23vh;
+    background: linear-gradient(#494b4b, #26272c2d);
+    position: absolute;
+    left: 0;
+    top: 35%;
+    
+}
+.icons
+{ 
+ 
+ 
+}
+.sidebar3
+{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#494b4b, #26272c2d);
+    position: absolute;
+    right: 0;
+    top: 0;
 }

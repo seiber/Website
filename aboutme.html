@@ -2,16 +2,35 @@
 <html>
         <head>
             <meta charset="UTF-8">
+            <script defer src = "js/test.js"></script>
             <link  rel="stylesheet" href="style.css">
-            <title>Dakota Seiber</title>
             <link rel="icon" href="Images/favicon.bmp" type="image/png">
+            <title>Dakota Seiber</title>
+            
         </head>
     <body>
-    <div class="background2"></div>
-    <div class="navbar">
-        1
-        2
-        3
+    <div class="background2">
+        <div class="sidebar2">
+            <div class="email">
+              <p><u><b>Seiberdakota@gmail.com</u></b></p>
+            </div>
+            <img src ="Images/Menu.png"  onclick="myFunction()" class = "menu"></img>
+              <div id="myDropdown" class="menu-content">
+              <a href="index.html">Home</a>
+              <a href="aboutme.html">About</a>
+              <a href="projects.html">Projects</a>
+                </div>
+
+            <div class="socials">
+              <img src="Images/LinkedIn.png" onclick= "location.href = 'https://linkedin.com/in/dakota-seiber-087970162/';" alt="Linkedin">
+              <img src="Images/Github.png"  onclick= "location.href = 'https://github.com/seiber';" alt="Github">
+              <img src="Images//Email.png"  alt="Email">
+            </div>
+          </div>
+          <h1 class="aboutme-header">About Me</h1>
+            <div id = "demo" class="aboutme-text"></div>
+            <img src ="Images/Quill.png" class="quill"></img>
     </div>
+   
     </body>
 </html>
