@@ -274,7 +274,7 @@ bottom: -70px;
 {
     background-color: rgb(15, 15, 15);
     width: 100%;
-    height: 100vh;
+    height: 700vh;
     background-size: cover;
     position: relative;
 }
@@ -286,35 +286,66 @@ bottom: -70px;
     font-size: 24px;
     font-family: sans-serif;
     font-weight: bold;
-    color: whitesmoke;
+    /*color: whitesmoke;*/
+    color: white;
     position: relative;
-    top: 30%;
+    top: 1%;
     letter-spacing:0.2em;
-    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
-    height: 200px;
-    width: 200px;
+    margin-left: 5px;
+    height: 100px;
+    width: 100px;
 }
 .icon-bar
-{
-    width: 97.4%;
-    height: 23vh;
-    background: linear-gradient(#494b4b, #26272c2d);
-    position: absolute;
-    left: 0;
-    top: 35%;
-    
+{ 
+    margin-top: 10%;
 }
 .icons
 { 
- 
- 
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons img:hover
+{
+    box-shadow: inset 0 0 25px 10px rgb(241, 252, 255);
 }
 .sidebar3
 {
     width: 50px;
     height: 100vh;
     background: linear-gradient(#494b4b, #26272c2d);
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
+}
+.project-bar
+{
+    width:90px;
+}
+.project-names
+{
+    
+    color: white;
+    margin-top: -115px;
+    margin-bottom: 600px;
+    margin-left: 300px;
+    list-style-type: none;
+}
+.project-desc
+{  
+    list-style-type: none;
+    margin-left: 600px;
+    padding-bottom: 15px;
+    color: white;
+}
+.repository-button
+{
+    padding:5px;
+    border-radius: 5px;
+    margin-left: 600px;
+}
+.time-period
+{
+    color: gray;
+    padding-top: 20px;
+    margin-left: 600px;
 }
