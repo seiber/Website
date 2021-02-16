@@ -337,11 +337,23 @@ bottom: -70px;
     padding-bottom: 15px;
     color: white;
 }
-.repository-button
+.code-button
 {
     padding:5px;
     border-radius: 5px;
     margin-left: 600px;
+    text-decoration: none;
+}
+.demo-button
+{
+    padding:5px;
+    border-radius: 5px;
+    margin-left: 600px;
+    text-decoration: none;
+}
+.top
+{
+    position: fixed;
 }
 .time-period
 {
@@ -349,3 +361,4 @@ bottom: -70px;
     padding-top: 20px;
     margin-left: 600px;
 }
+
