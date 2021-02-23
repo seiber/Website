@@ -5,13 +5,14 @@
 }
 .background
 {
-    width:100%;
-    height:100vh;
-    background-image: url(Images/PirateBackground.jpg);
+    position: relative; 
+    width:100vw;
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    position: relative; 
     overflow: hidden;
+    background-image: url(Images/PirateBackground.jpg);
+    
 }
 
 button
@@ -26,11 +27,10 @@ button
 .sidebar
 {
     width: 50px;
-    height: 100vh;
-    background: linear-gradient(#00545d, #000729);
-    position: absolute;
+    height: 80vh;
+    position: fixed;
     right: 0;
-    top: 0;
+    top: 15%;
 
 }
 
@@ -58,33 +58,40 @@ button
 }
 .header
 {
+    margin-inline: 25%;
     position: relative;
-    top: 10%;
-    height: 200px;
-    width: 200px;
+    height: 0;
+    width: 0;
+    top: 13rem;
+    
+   
     color:#e98644;
-    padding-bottom: 20px;
-    font-size:59px;
-    font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-    text-align: left;
+    font-size:4rem;
+    font-family:sans-serif;
     line-height: 1.25em;
     letter-spacing:0.2em;
-   
-    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
+}
+.container1
+{
+    margin-inline: auto;
+    width: min(90%,55rem);
 }
 .description
 {
+    
     position: relative;
-    top: 3%;
+    height: 0;
+    top: 30rem;
+    
+    
+
     color:#e98644;
-    font-size:17px;
+    text-align: left;
+    font-size:1.2rem;
     font-family:sans-serif;
     line-height: 1.5em;
     letter-spacing:0.2em;
     opacity: 0.90;
-    height: 200px;
-    width: 200px;
-    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
 }
 .email
 {
@@ -178,11 +185,12 @@ bottom: -70px;
 }
 .menu-content
 {
-    top: 8%;
-    right: 25%;
+    position: relative;
+    bottom: 7rem;
+    right: 9rem;
     width: 200px;
     display: none;
-    position: absolute;
+    
     background-color: #f1f1f1;
     z-index: 1;
 }
@@ -350,29 +358,32 @@ bottom: -70px;
 /*new-projects page*/
 .background4
 {
-    height: 66rem;
+    position: relative; 
+    width:100%;
+    height:200vh;
+    background-size: cover;
+    background-position: center;
     background-color: #22262a;
 }
 .sidebar4
-{
+{   
     width: 50px;
-    height: 100vh;
-    background: linear-gradient(#494b4b, #26272c2d);
+    height: 80vh;
     position: fixed;
     right: 0;
-    top: 0;
+    top: 15%;
 }
 
 .project-icons
 {
     display:inline-block;
-    margin-left: 1rem;
+    margin-left: 8rem;
     
 }
 .project-icons img
 {
-    width: 50%;
-    height: 50%;
+    width: 35vw; /*50%*/
+    height: 35vh;
     margin-top: 10%;
     -webkit-box-shadow: 3px 3px 3px 3px rgb(8, 8, 8);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:    3px 3px 3px 3px rgb(8, 8, 8);  /* Firefox 3.5 - 3.6 */
@@ -562,6 +573,31 @@ bottom: -70px;
 {
     margin-inline: auto;
     width: min(90%,70.5rem);
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    width: 80%;
+    padding: 1rem;
+    background:transparent;
+    color: #94a4b4;
+    font-size: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+.footer-info
+{
+    display: inline-block;
+    margin-right: 3rem;
+}
+.footer-text
+{
+    color: #fff;
+    text-decoration: none;
 }
 
 
