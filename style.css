@@ -353,7 +353,7 @@ bottom: -70px;
 {
     position: relative; 
     width:100%;
-    height:200vh;
+    height:330vh;
     background-size: cover;
     background-position: center;
     background-color: #22262a;
@@ -573,7 +573,7 @@ bottom: -70px;
     position: absolute;
     bottom: 1rem;
     left: 0;
-    width: 80%;
+    width: 90%;
     padding: 1rem;
     background:transparent;
     color: #94a4b4;
