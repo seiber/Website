@@ -142,15 +142,6 @@ function myFunction()
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-window.onload = function typeWriter() 
-{
-  if (i < txt.length) 
-  {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
 window.onclick = function(event) {
     if (!event.target.matches('.menu')) {
       var dropdowns = document.getElementsByClassName("menu-content");

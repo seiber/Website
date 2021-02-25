@@ -27,11 +27,10 @@ button
 .sidebar
 {
     width: 50px;
-    height: 120vh;
+    height: 80vh;
     position: fixed;
     right: 0;
-    top: 20%;
-
+    top: 15%;
 }
 
 .socials img:hover
@@ -203,82 +202,7 @@ bottom: -70px;
 {
     display:block;
 } 
-/*about me page*/
-.background2
-{
-    /*background-image: url(Images/AboutMeBackground.jpg);*/
-    background-color: beige;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-}
-.sidebar2
-{
-    width: 50px;
-    height: 100vh;
-    background: linear-gradient(#494b4b, #26272c2d);
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.aboutme-header
-{
-    text-align: left;
-    line-height: 1.5em;
-    letter-spacing:0.15em;
-    font-size: 24px;
-    font-family: sans-serif;
-    font-weight: bold;
-    position: relative;
-    top: 30%;
-    padding-bottom: 20px;
-    letter-spacing:0.2em;
-    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
-    height: 200px;
-    width: 200px;
-}
-.aboutme-text
-{
-    text-align: left;
-    line-height: 1.5em;
-    letter-spacing:0.1em;
-    font-size: 13px;
-    font-family: sans-serif;
-    position: relative;
-    top: 10%;
-    padding-bottom: 20px;
-    margin: 0px 0px 34px calc((100% - 980px) * 0.5);
-    height: 200px;
-    width: 500px; 
-}
-.quill
-{
-    position: relative;
-    width:400px;
-    height: 400px;
-    bottom: 40%;
-    left: 40%;
-    -webkit-animation-iteration-count: 7;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 3s;
-}
-@-webkit-keyframes run 
-{
-    50% { left: 50%;}
-    50%{ left : 51%;}
-    100%{ left: 50;}
-}
-  
-/*projects page*/
-.background3
-{
-    background-color: rgb(15, 15, 15);
-    width: 100%;
-    height: 700vh;
-    background-size: cover;
-    position: relative;
-}
+
 .projects-header
 {
     
@@ -295,47 +219,6 @@ bottom: -70px;
     padding-top: 2rem;
    
 }
-.project-icons
-{
-    justify-content: space-evenly;
-}
-.icon-bar
-{ 
-   
-    display: inline-block;
-    
-   
-}
-
-.icons img:hover
-{
-    box-shadow: inset 0 0 25px 10px rgb(241, 252, 255);
-}
-.sidebar3
-{
-    width: 50px;
-    height: 100vh;
-    background: linear-gradient(#494b4b, #26272c2d);
-    position: fixed;
-    right: 0;
-    top: 0;
-}
-
-.project-names
-{
-    color: white;
-    margin-top: -115px;
-    margin-bottom: 600px;
-    margin-left: 300px;
-    list-style-type: none;
-}
-.project-desc
-{  
-    list-style-type: none;
-    margin-left: 600px;
-    padding-bottom: 15px;
-    color: white;
-}
 .top
 {
     position: fixed;
@@ -343,7 +226,7 @@ bottom: -70px;
     top: 25%;
     margin-left: 10%;
 }
-/*new-projects page*/
+
 .background4
 {
     position: relative; 
